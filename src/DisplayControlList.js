@@ -18,7 +18,7 @@ const DisplayControlList = ({list, handleListItemClick, selectedIndex}) => {
                                 `${
                                     item.control_number
                                 } : ${
-                                    item.control_description
+                                    (item.control_description).toUpperCase()
                                 }`
                             }/>
                         </ListItem>

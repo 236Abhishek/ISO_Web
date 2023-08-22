@@ -2,3 +2,14 @@
     border-top: 2px solid #9393c4;
     box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
 }
+.terms-and-conditions-div{
+    background-color: #e7f1fa;
+    padding: 1px;
+    font-size: 10px;
+    border-radius: 2px;
+    position: fixed;
+    bottom: 20px;
+    box-shadow: 0px -2px 5px rgba;
+    margin: 8px;
+    color: #85808f;
+}

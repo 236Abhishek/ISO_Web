@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import './styles/CategoryInfo.css';
 import {Checkbox, FormControlLabel, Radio} from "@mui/material";
 import Explanation from "./Explanation";
+import TermsAndConditions from "./TermsAndConditions";
 
 const ControlExplanation = ({explanationData, selectedControlByUser, firstItemClicked}) => {
     const [toggle, setToggle] = useState(false);
@@ -33,7 +34,7 @@ const ControlExplanation = ({explanationData, selectedControlByUser, firstItemCl
     const handleNoSelection =() => {
             const matchedItem = explanationData.find(data => {
                 const parts = selectedControlByUser.split(' : ');
-                return data.control_number === parts[0] && data.control_description === parts[1];
+                return data.control_number === parts[0] && data.control_description.toLowerCase() === parts[1].toLowerCase();
             });
     
             if (matchedItem) {
@@ -45,7 +46,7 @@ const ControlExplanation = ({explanationData, selectedControlByUser, firstItemCl
 
     return (
         <div className="control-explanation-div">
-            <h1 className="control-explanation-header">Present in IT Security side screen
+            <h1 className="control-explanation-header">CONTROLS DESCRIPTION
             </h1>
             {firstItemClicked && (
                 <>
@@ -60,6 +61,7 @@ const ControlExplanation = ({explanationData, selectedControlByUser, firstItemCl
                </>
               )}
             {displayData && noValue && <Explanation data={displayData}/>}
+            <TermsAndConditions/>
         </div>
     )
 }

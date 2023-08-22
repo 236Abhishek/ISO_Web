@@ -43,7 +43,7 @@ const CategoryInfo = () => {
     return (
         <div>
             <p className="control-screen-header">
-                {headerText} </p>
+                {headerText.toUpperCase()} </p>
             <div className="control-screen-layout">
                 <div className="left-side-controls">
                     <SearchBar searchText={searchText}

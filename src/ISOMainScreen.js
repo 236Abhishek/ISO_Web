@@ -28,7 +28,7 @@ const ISOMainScreen = () => {
     return (
         <div>
             <div>
-                <p className="header">Defined all ISO Controls
+                <p className="header"><b>ISO27001:2022 CONTROL CHECKLIST</b>
                 </p>
             </div>
             <div className="main-iso-container">
