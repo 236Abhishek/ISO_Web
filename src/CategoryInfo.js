@@ -31,7 +31,7 @@ const CategoryInfo = () => {
 
     //find out which control was clicked by user
     const [clickedControl, setClickedControl] = useState(" ");
-    const [selectedIndex, setSelectedIndex] = useState(0);
+    const [selectedIndex, setSelectedIndex] = useState();
     const [firstItemClicked, setFirstItemClicked] = useState(false);
     const handleListItemClick = (event, index) => {
         if (!firstItemClicked) {
