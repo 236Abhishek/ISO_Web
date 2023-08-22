@@ -1,0 +1,67 @@
+.main-iso-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.iso-image-button{
+    display: flex;
+    justify-content: center;
+    margin: 2%
+}
+.iso-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 500px;
+    gap: 10px;
+    margin: 10px;
+    background-color: #f0f1f3; /* Blue background color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+.iso-buttons button:hover {
+    background-color: #cbbe44; /* Darker blue on hover */
+}
+.iso-buttons button {
+    width: 500px;
+    height: 75px;
+    font-family: none;
+    font-size: 22px;
+}
+.button-container{
+    width: 200px;
+    height: 75px
+}
+.header {
+    text-align: center;
+    margin-top: 0px;
+}
+.iso-logo {
+    width: 22%;
+    border-radius: 29%;
+    cursor: pointer;
+    border: 3px solid #3498db;/* Add a nice blue border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    /* Add additional styles if needed, e.g., border, shadow */
+}
+.iso-logo:hover {
+    border-color: #bdcb24; /* Darker blue border on hover */
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+.header{
+    position: sticky;/* Sticky position */
+    top: 0;
+    z-index: 1;/* Place above the scrollable list */
+    border-bottom: 2px solid #7373cc;
+    background-color: #3498db;
+    font-family: initial;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
