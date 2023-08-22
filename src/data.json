@@ -1,0 +1,579 @@
+[
+    {
+        "OC": [
+            {
+                "control_number": "5.1",
+                "control_description": "Policies for information security",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement a comprehensive set of policies that define the organization's approach to information security, covering areas such as data protection, access controls, incident response, and risk management. Policies should be regularly reviewed and updated to address emerging threats and technologies."
+            },
+            {
+                "control_number": "5.2",
+                "control_description": "Information security roles and responsibilities",
+                "present_in_security_policy": "Yes",
+                "explanation": "Define clear roles and responsibilities for individuals within the organization regarding information security. This includes assigning ownership of specific security controls, roles in incident response, and accountability for compliance with policies. Regularly communicate these roles and responsibilities to all staff members."
+            },
+            {
+                "control_number": "5.3",
+                "control_description": "Segregation of duties",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement a system of separation of duties to ensure that no single individual has control over all aspects of a critical process. This helps prevent unauthorized activities and reduces the risk of fraud or errors."
+            },
+            {
+                "control_number": "5.4",
+                "control_description": "Management responsibilities",
+                "present_in_security_policy": "Yes",
+                "explanation": "Clearly outline the responsibilities of management in ensuring information security. This includes providing adequate resources, setting objectives, conducting regular risk assessments, and demonstrating commitment to security initiatives."
+            },
+            {
+                "control_number": "5.5",
+                "control_description": "Contact with authorities",
+                "present_in_security_policy": "No",
+                "explanation": "Establish a process for communication and collaboration with relevant authorities in the event of a security incident. This ensures timely reporting and compliance with legal and regulatory requirements."
+            },
+            {
+                "control_number": "5.6",
+                "control_description": "Contact with special interest groups",
+                "present_in_security_policy": "No",
+                "explanation": "Identify and establish communication channels with special interest groups relevant to the organization's industry or sector. This may include information sharing and collaboration to address specific security challenges."
+            },
+            {
+                "control_number": "5.7",
+                "control_description": "Threat intelligence",
+                "present_in_security_policy": "No",
+                "explanation": "Develop a mechanism to gather, analyze, and apply threat intelligence to identify emerging security threats and vulnerabilities. This helps in proactive defense and response planning."
+            },
+            {
+                "control_number": "5.8",
+                "control_description": "Information security in project management",
+                "present_in_security_policy": "Yes",
+                "explanation": "Integrate information security considerations into the project management lifecycle. Conduct security assessments during project planning, execution, and completion to identify and address potential risks."
+            },
+            {
+                "control_number": "5.9",
+                "control_description": "Inventory of information and other associated assets",
+                "present_in_security_policy": "Yes",
+                "explanation": "Create and maintain an inventory of all information assets, including hardware, software, data, and personnel. This aids in understanding the organization's attack surface and ensuring appropriate security measures are in place."
+            },
+            {
+                "control_number": "5.10",
+                "control_description": "Acceptable use of information and other associated assets",
+                "present_in_security_policy": "Yes",
+                "explanation": "Establish guidelines and policies for the acceptable use of information and assets. This informs employees about appropriate behavior and actions, reducing the risk of insider threats and unauthorized use."
+            },
+            {
+                "control_number": "5.11",
+                "control_description": "Return of assets",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement procedures for the return of assets, such as devices and access privileges, when an employee leaves the organization or changes roles. This helps prevent unauthorized access and data leakage."
+            },
+            {
+                "control_number": "5.12",
+                "control_description": "Classification of information",
+                "present_in_security_policy": "Yes",
+                "explanation": "Categorize information based on its sensitivity and criticality. Apply appropriate security controls to each category, ensuring that data is adequately protected and accessed only by authorized individuals."
+            },
+            {
+                "control_number": "5.13",
+                "control_description": "Labelling of information",
+                "present_in_security_policy": "Yes",
+                "explanation": "Apply clear labels or markings to indicate the sensitivity and handling requirements of information. This helps prevent mishandling and ensures that data is treated appropriately."
+            },
+            {
+                "control_number": "5.14",
+                "control_description": "Information transfer",
+                "present_in_security_policy": "Yes",
+                "explanation": "Establish secure mechanisms and protocols for transferring information between different systems, locations, or parties. This prevents data breaches during transit."
+            },
+            {
+                "control_number": "5.15",
+                "control_description": "Access control",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement access controls to restrict unauthorized access to systems and data. This includes user authentication, authorization mechanisms, and role-based access control."
+            },
+            {
+                "control_number": "5.16",
+                "control_description": "Identity management",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement processes and technologies to manage user identities, including user provisioning, deprovisioning, and authentication. This helps ensure that only authorized individuals have access."
+            },
+            {
+                "control_number": "5.17",
+                "control_description": "Authentication information",
+                "present_in_security_policy": "Yes",
+                "explanation": "Define requirements for strong and secure authentication methods, such as multi-factor authentication, to verify the identity of users and prevent unauthorized access."
+            },
+            {
+                "control_number": "5.18",
+                "control_description": "Access rights",
+                "present_in_security_policy": "Yes",
+                "explanation": "Regularly review and manage access rights to ensure that users have only the privileges necessary for their roles. This reduces the risk of unauthorized access and data breaches."
+            },
+            {
+                "control_number": "5.19",
+                "control_description": "Information security in supplier relationships",
+                "present_in_security_policy": "No",
+                "explanation": "Establish information security requirements for suppliers and partners. This includes assessing their security practices, signing agreements, and monitoring compliance to protect shared data."
+            },
+            {
+                "control_number": "5.20",
+                "control_description": "Addressing information security within supplier agreements",
+                "present_in_security_policy": "No",
+                "explanation": "Include clauses in supplier agreements that specify information security requirements and responsibilities. This ensures that security is a priority throughout the supply chain."
+            },
+            {
+                "control_number": "5.21",
+                "control_description": "Managing information security in the ICT supply chain",
+                "present_in_security_policy": "No",
+                "explanation": "Implement measures to assess and manage security risks in the information and communication technology supply chain. This includes evaluating suppliers and ensuring secure integration."
+            },
+            {
+                "control_number": "5.22",
+                "control_description": "Monitoring, review, and change management of supplier services",
+                "present_in_security_policy": "No",
+                "explanation": "Continuously monitor and review supplier services to ensure they meet security requirements. Establish change management processes to address any updates or modifications to supplier services."
+            },
+            {
+                "control_number": "5.23",
+                "control_description": "Information security for use of cloud services",
+                "present_in_security_policy": "No",
+                "explanation": "Develop a strategy for securely using cloud services, including assessing risks, implementing controls, and ensuring data protection when using third-party cloud providers."
+            },
+            {
+                "control_number": "5.24",
+                "control_description": "Information security incident management planning and preparation",
+                "present_in_security_policy": "No",
+                "explanation": "Develop a comprehensive incident response plan that outlines steps to detect, respond to, and recover from security incidents. Regularly test and update the plan to address emerging threats."
+            },
+            {
+                "control_number": "5.25",
+                "control_description": "Assessment and decision on information security events",
+                "present_in_security_policy": "No",
+                "explanation": "Establish procedures for assessing and making decisions regarding information security events. Determine the severity, impact, and appropriate actions for different types of incidents."
+            },
+            {
+                "control_number": "5.26",
+                "control_description": "Response to information security incidents",
+                "present_in_security_policy": "No",
+                "explanation": "Define a coordinated response process to address security incidents, including containment, eradication, and recovery. This helps minimize damage and restore normal operations."
+            },
+            {
+                "control_number": "5.27",
+                "control_description": "Learning from information security incidents",
+                "present_in_security_policy": "No",
+                "explanation": "After an incident, conduct a thorough analysis to identify root causes and lessons learned. Use this information to improve security controls and prevent future incidents."
+            },
+            {
+                "control_number": "5.28",
+                "control_description": "Collection of evidence",
+                "present_in_security_policy": "No",
+                "explanation": "Establish procedures for collecting, preserving, and presenting digital evidence in the event of a security incident or breach. This is essential for legal and regulatory purposes."
+            },
+            {
+                "control_number": "5.29",
+                "control_description": "Information security during disruption",
+                "present_in_security_policy": "No",
+                "explanation": "Develop a business continuity and disaster recovery plan that ensures essential information and services remain available during disruptions. Test and update the plan regularly."
+            },
+            {
+                "control_number": "5.30",
+                "control_description": "ICT readiness for business continuity",
+                "present_in_security_policy": "No",
+                "explanation": "Ensure that information and communication technology systems and services are prepared to support business continuity efforts. This includes redundancy, backup, and recovery measures."
+            },
+            {
+                "control_number": "5.31",
+                "control_description": "Legal, statutory, regulatory, and contractual requirements",
+                "present_in_security_policy": "Yes",
+                "explanation": "Identify and understand legal, statutory, regulatory, and contractual requirements related to information security. Develop processes to ensure compliance with these obligations."
+            },
+            {
+                "control_number": "5.32",
+                "control_description": "Intellectual property rights",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement measures to protect intellectual property from unauthorized access, use, or disclosure. This includes both proprietary information and third-party intellectual property."
+            },
+            {
+                "control_number": "5.33",
+                "control_description": "Protection of records",
+                "present_in_security_policy": "Yes",
+                "explanation": "Establish controls to protect and manage records throughout their lifecycle. This includes creation, retention, storage, retrieval, and destruction of records."
+            },
+            {
+                "control_number": "5.34",
+                "control_description": "Privacy and protection of Personally Identifiable Information (PII)",
+                "present_in_security_policy": "Yes",
+                "explanation": "Develop and implement privacy policies and practices to safeguard the confidentiality and integrity of Personally Identifiable Information (PII)."
+            },
+            {
+                "control_number": "5.35",
+                "control_description": "Independent review of information security",
+                "present_in_security_policy": "No",
+                "explanation": "Conduct regular independent reviews or audits of the organization's information security practices to identify vulnerabilities and areas for improvement."
+            },
+            {
+                "control_number": "5.36",
+                "control_description": "Compliance with policies, rules, and standards for information security",
+                "present_in_security_policy": "Yes",
+                "explanation": "Ensure that the organization's information security practices align with relevant policies, rules, and standards, both internal and external."
+            },
+            {
+                "control_number": "5.37",
+                "control_description": "Documented operating procedures",
+                "present_in_security_policy": "Yes",
+                "explanation": "Create and maintain documented operating procedures for all information security-related processes. These procedures provide clear instructions for employees and help ensure consistent practices."
+            }
+        ]
+    },
+    {
+        "PC": [ 
+            {
+            "control_number": "6.1",
+            "control_description": "Screening",
+            "present_in_security_policy": "No",
+            "explanation": "Implement a screening process for new employees, contractors, and third-party personnel who will have access to sensitive information or systems. This process helps ensure that individuals with malicious intent or potential security risks are identified and prevented from gaining access."
+        },
+        {
+            "control_number": "6.2",
+            "control_description": "Terms and conditions of employment",
+            "present_in_security_policy": "No",
+            "explanation": "Clearly define information security-related terms and conditions in employment contracts and agreements. This ensures that employees are aware of their security responsibilities and obligations from the outset."
+        },
+        {
+            "control_number": "6.3",
+            "control_description": "Information security awareness, education, and training",
+            "present_in_security_policy": "Yes",
+            "explanation": "Establish an ongoing training program to raise awareness about information security among employees. This includes educating them about security best practices, potential threats, and how to respond to security incidents."
+        },
+        {
+            "control_number": "6.4",
+            "control_description": "Disciplinary process",
+            "present_in_security_policy": "No",
+            "explanation": "Develop and communicate a clear disciplinary process for employees who violate information security policies. This process provides consequences for non-compliance and reinforces the importance of security."
+        },
+        {
+            "control_number": "6.5",
+            "control_description": "Responsibilities after termination or change of employment",
+            "present_in_security_policy": "No",
+            "explanation": "Define procedures for managing access rights and information assets when employees leave the organization or change roles. This prevents unauthorized access and data leakage."
+        },
+        {
+            "control_number": "6.6",
+            "control_description": "Confidentiality or non-disclosure agreements",
+            "present_in_security_policy": "No",
+            "explanation": "Require employees, contractors, and third parties to sign confidentiality or non-disclosure agreements to protect sensitive information from unauthorized disclosure."
+        },
+        {
+            "control_number": "6.7",
+            "control_description": "Remote working",
+            "present_in_security_policy": "Yes",
+            "explanation": "Establish guidelines and security measures for employees working remotely. This includes secure connectivity, data protection, and adherence to information security policies outside the office environment."
+        },
+        {
+            "control_number": "6.8",
+            "control_description": "Information security event reporting",
+            "present_in_security_policy": "No",
+            "explanation": "Develop a clear process for employees to report security incidents or suspicious activities. This ensures timely detection and response to potential security breaches."
+        }]
+    },
+    {
+        "PhyC": [
+
+    {
+        "control_number": "7.1",
+        "control_description": "Physical security perimeters",
+        "present_in_security_policy": "No",
+        "explanation": "Define physical security perimeters to restrict unauthorized access to sensitive areas. This includes the use of barriers, access controls, and surveillance systems."
+    },
+    {
+        "control_number": "7.2",
+        "control_description": "Physical entry",
+        "present_in_security_policy": "No",
+        "explanation": "Implement controls to regulate and monitor physical entry to facilities. This includes visitor registration, access badges, and identity verification."
+    },
+    {
+        "control_number": "7.3",
+        "control_description": "Securing offices, rooms, and facilities",
+        "present_in_security_policy": "No",
+        "explanation": "Implement measures to secure offices, rooms, and facilities containing sensitive information or critical assets. This includes locks, alarms, and access controls."
+    },
+    {
+        "control_number": "7.4",
+        "control_description": "Physical security monitoring",
+        "present_in_security_policy": "No",
+        "explanation": "Deploy monitoring systems to track and record activities within physical spaces. This helps identify unauthorized access or suspicious behavior."
+    },
+    {
+        "control_number": "7.5",
+        "control_description": "Protecting against physical and environmental threats",
+        "present_in_security_policy": "No",
+        "explanation": "Implement measures to protect against physical threats such as fire, flood, and other environmental hazards that could impact information assets and operations."
+    },
+    {
+        "control_number": "7.6",
+        "control_description": "Working in secure areas",
+        "present_in_security_policy": "No",
+        "explanation": "Define guidelines for working in secure areas to prevent unauthorized access and ensure proper handling of sensitive information."
+    },
+    {
+        "control_number": "7.7",
+        "control_description": "Clear desk and clear screen",
+        "present_in_security_policy": "Yes",
+        "explanation": "Encourage employees to maintain a clear desk and clear screen policy, ensuring that sensitive information is not left exposed on desks or screens when unattended."
+    },
+    {
+        "control_number": "7.8",
+        "control_description": "Equipment siting and protection",
+        "present_in_security_policy": "No",
+        "explanation": "Secure equipment and devices to prevent unauthorized removal or tampering. This includes physical locks and protection against theft."
+    },
+    {
+        "control_number": "7.9",
+        "control_description": "Security of assets off-premises",
+        "present_in_security_policy": "No",
+        "explanation": "Implement measures to protect information assets and devices when they are taken off-premises. This includes encryption, secure storage, and controlled access."
+    },
+    {
+        "control_number": "7.10",
+        "control_description": "Storage media",
+        "present_in_security_policy": "No",
+        "explanation": "Implement secure storage for physical storage media such as disks and tapes, including measures to prevent loss or theft."
+    },
+    {
+        "control_number": "7.11",
+        "control_description": "Supporting utilities",
+        "present_in_security_policy": "No",
+        "explanation": "Ensure that supporting utilities (e.g., power, cooling, environmental controls) are protected to prevent service disruptions that could impact information security."
+    },
+    {
+        "control_number": "7.12",
+        "control_description": "Cabling security",
+        "present_in_security_policy": "No",
+        "explanation": "Implement measures to secure cabling infrastructure, preventing unauthorized access or tampering that could compromise network integrity."
+    },
+    {
+        "control_number": "7.13",
+        "control_description": "Equipment maintenance",
+        "present_in_security_policy": "No",
+        "explanation": "Establish procedures for regular maintenance and inspection of equipment to ensure that it remains secure and functional."
+    },
+    {
+        "control_number": "7.14",
+        "control_description": "Secure disposal or re-use of equipment",
+        "present_in_security_policy": "No",
+        "explanation": "Develop procedures for the secure disposal or re-use of equipment, including data sanitization and ensuring that no sensitive information is exposed."
+    }
+
+        ]
+    },
+    {
+        "TC": [
+            {
+                "control_number": "8.1",
+                "control_description": "User endpoint devices",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement security controls on user endpoint devices (e.g., laptops, desktops, mobile devices) to protect against unauthorized access and data breaches."
+            },
+            {
+                "control_number": "8.2",
+                "control_description": "Privileged access rights",
+                "present_in_security_policy": "Yes",
+                "explanation": "Establish a controlled process for granting and managing privileged access rights to ensure that only authorized personnel have elevated permissions."
+            },
+            {
+                "control_number": "8.3",
+                "control_description": "Information access restriction",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement access controls to restrict user access to sensitive information based on their roles and responsibilities."
+            },
+            {
+                "control_number": "8.4",
+                "control_description": "Access to source code",
+                "present_in_security_policy": "Yes",
+                "explanation": "Protect access to source code repositories and ensure that only authorized individuals can view and modify source code."
+            },
+            {
+                "control_number": "8.5",
+                "control_description": "Secure authentication",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement strong authentication methods (e.g., multi-factor authentication) to enhance user authentication and prevent unauthorized access."
+            },
+            {
+                "control_number": "8.6",
+                "control_description": "Capacity management",
+                "present_in_security_policy": "Yes",
+                "explanation": "Monitor and manage IT resources to ensure that systems have sufficient capacity to handle demand and prevent performance issues."
+            },
+            {
+                "control_number": "8.7",
+                "control_description": "Protection against malware",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement measures to protect systems and devices from malware, including regular updates, anti-virus software, and user awareness."
+            },
+            {
+                "control_number": "8.8",
+                "control_description": "Management of technical vulnerabilities",
+                "present_in_security_policy": "Yes",
+                "explanation": "Establish a process for identifying, assessing, and mitigating technical vulnerabilities in software and systems."
+            },
+            {
+                "control_number": "8.9",
+                "control_description": "Configuration management",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement configuration controls to ensure that systems are configured securely and in line with established standards."
+            },
+            {
+                "control_number": "8.10",
+                "control_description": "Information deletion",
+                "present_in_security_policy": "Yes",
+                "explanation": "Develop procedures for secure and permanent deletion of information that is no longer needed, in compliance with legal and regulatory requirements."
+            },
+            {
+                "control_number": "8.11",
+                "control_description": "Data masking",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement data masking techniques to protect sensitive information while it is being used for testing, development, or analytics purposes."
+            },
+            {
+                "control_number": "8.12",
+                "control_description": "Data leakage prevention",
+                "present_in_security_policy": "Yes",
+                "explanation": "Deploy measures to prevent unauthorized data leakage or exfiltration, including monitoring and controlling data transfers."
+            },
+            {
+                "control_number": "8.13",
+                "control_description": "Information backup",
+                "present_in_security_policy": "Yes",
+                "explanation": "Establish a regular backup process to ensure that critical information is backed up and can be restored in case of data loss or disasters."
+            },
+            {
+                "control_number": "8.14",
+                "control_description": "Redundancy of information processing facilities",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement redundancy and failover mechanisms to ensure continuous operation of information processing facilities in case of disruptions."
+            },
+            {
+                "control_number": "8.15",
+                "control_description": "Logging",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement logging mechanisms to record and monitor system activities, helping to detect and investigate security incidents."
+            },
+            {
+                "control_number": "8.16",
+                "control_description": "Monitoring activities",
+                "present_in_security_policy": "Yes",
+                "explanation": "Monitor system and network activities to detect and respond to suspicious or unauthorized behavior."
+            },
+            {
+                "control_number": "8.17",
+                "control_description": "Clock synchronization",
+                "present_in_security_policy": "Yes",
+                "explanation": "Synchronize system clocks to ensure accurate timestamps for logs and events, aiding in forensic investigations."
+            },
+            {
+                "control_number": "8.18",
+                "control_description": "Use of privileged utility programs",
+                "present_in_security_policy": "Yes",
+                "explanation": "Restrict the use of privileged utility programs to authorized personnel and monitor their usage for security purposes."
+            },
+            {
+                "control_number": "8.19",
+                "control_description": "Installation of software on operational systems",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement controls to ensure that only authorized and tested software is installed on operational systems."
+            },
+            {
+                "control_number": "8.20",
+                "control_description": "Network security",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement network security controls (e.g., firewalls, intrusion detection systems) to protect against unauthorized access and network-based attacks."
+            },
+            {
+                "control_number": "8.21",
+                "control_description": "Security of network services",
+                "present_in_security_policy": "Yes",
+                "explanation": "Securely configure and manage network services to prevent vulnerabilities and unauthorized access."
+            },
+            {
+                "control_number": "8.22",
+                "control_description": "Segregation of networks",
+                "present_in_security_policy": "Yes",
+                "explanation": "Separate networks based on their functions and sensitivity to prevent unauthorized access and reduce attack surface."
+            },
+            {
+                "control_number": "8.23",
+                "control_description": "Web filtering",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement web filtering mechanisms to control and monitor internet traffic, blocking malicious or unauthorized content."
+            },
+            {
+                "control_number": "8.24",
+                "control_description": "Use of cryptography",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement encryption and cryptography to protect sensitive data during transmission and storage."
+            },
+            {
+                "control_number": "8.25",
+                "control_description": "Secure development lifecycle",
+                "present_in_security_policy": "Yes",
+                "explanation": "Integrate security into the software development lifecycle to identify and address security issues early in the development process."
+            },
+            {
+                "control_number": "8.26",
+                "control_description": "Application security requirements",
+                "present_in_security_policy": "Yes",
+                "explanation": "Define and enforce security requirements for software applications to prevent vulnerabilities and weaknesses."
+            },
+            {
+                "control_number": "8.27",
+                "control_description": "Secure system architecture and engineering principles",
+                "present_in_security_policy": "Yes",
+                "explanation": "Apply secure design principles and architecture to ensure systems are resistant to security threats."
+            },
+            {
+                "control_number": "8.28",
+                "control_description": "Secure coding",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement secure coding practices to prevent vulnerabilities and weaknesses in software code."
+            },
+            {
+                "control_number": "8.29",
+                "control_description": "Security testing in development and acceptance",
+                "present_in_security_policy": "Yes",
+                "explanation": "Conduct security testing (e.g., penetration testing, code review) during development and before deployment to identify and address security flaws."
+            },
+            {
+                "control_number": "8.30",
+                "control_description": "Outsourced development",
+                "present_in_security_policy": "Yes",
+                "explanation": "Apply security measures and controls to outsourced development processes to ensure that security is maintained."
+            },
+            {
+                "control_number": "8.31",
+                "control_description": "Separation of development, test, and production environments",
+                "present_in_security_policy": "Yes",
+                "explanation": "Segregate development, testing, and production environments to prevent unauthorized access and maintain system integrity."
+            },
+            {
+                "control_number": "8.32",
+                "control_description": "Change management",
+                "present_in_security_policy": "Yes",
+                "explanation": "Implement a formal change management process to control and track changes to systems and software."
+            },
+            {
+                "control_number": "8.33",
+                "control_description": "Test information",
+                "present_in_security_policy": "Yes",
+                "explanation": "Safeguard test data and environments to prevent unauthorized access to sensitive information."
+            },
+            {
+                "control_number": "8.34",
+                "control_description": "Protection of information systems during audit testing",
+                "present_in_security_policy": "Yes",
+                "explanation": "Ensure that audit testing procedures do not compromise the security or availability of information systems being tested."
+            }
+
+        ]
+    }
+   
+]
