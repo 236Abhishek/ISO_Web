@@ -1,10 +1,11 @@
-import React, {useEffect, useState} from "react";
-import {useLocation} from 'react-router-dom';
+import React, { useEffect, useState } from "react";
+import { useLocation } from 'react-router-dom';
 import DisplayControlList from "./DisplayControlList";
 import ControlExplanation from "./ControlExplanation";
 import data from './data.json';
 import SearchBar from "./SearchBar";
 import './styles/CategoryInfo.css';
+import { Link } from 'react-router-dom'; 
 
 const CategoryInfo = () => {
     //extract the control info from the navigated URL
@@ -31,9 +32,9 @@ const CategoryInfo = () => {
     //find out which control was clicked by user
     const [clickedControl, setClickedControl] = useState(" ");
     const [selectedIndex, setSelectedIndex] = useState(0);
-    const [firstItemClicked, setFirstItemClicked] =useState(false);
+    const [firstItemClicked, setFirstItemClicked] = useState(false);
     const handleListItemClick = (event, index) => {
-        if(!firstItemClicked){
+        if (!firstItemClicked) {
             setFirstItemClicked(true)
         }
         setClickedControl(event?.target?.innerText);
@@ -43,15 +44,18 @@ const CategoryInfo = () => {
     return (
         <div>
             <p className="control-screen-header">
+            <Link to="/" className="home-button">
+                Home
+            </Link>
                 {headerText.toUpperCase()} </p>
             <div className="control-screen-layout">
                 <div className="left-side-controls">
                     <SearchBar searchText={searchText}
-                        setSearchText={setSearchText}/>
-                    <DisplayControlList list={filteredData} handleListItemClick={handleListItemClick} selectedIndex={selectedIndex}/>
+                        setSearchText={setSearchText} />
+                    <DisplayControlList list={filteredData} handleListItemClick={handleListItemClick} selectedIndex={selectedIndex} />
                 </div>
                 <div className="control-explantion-part">
-                    <ControlExplanation explanationData={filteredData} selectedControlByUser={clickedControl} firstItemClicked={firstItemClicked}/>
+                    <ControlExplanation explanationData={filteredData} selectedControlByUser={clickedControl} firstItemClicked={firstItemClicked} />
                 </div>
             </div>
         </div>
