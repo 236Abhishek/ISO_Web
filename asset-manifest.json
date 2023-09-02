@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ISO_Web/static/css/main.efb8f3a7.css",
+    "main.js": "/ISO_Web/static/js/main.4286288b.js",
+    "static/js/787.6ed83e1f.chunk.js": "/ISO_Web/static/js/787.6ed83e1f.chunk.js",
+    "static/media/iso_bg.jpeg": "/ISO_Web/static/media/iso_bg.b89e578e950d82320f08.jpeg",
+    "index.html": "/ISO_Web/index.html",
+    "main.efb8f3a7.css.map": "/ISO_Web/static/css/main.efb8f3a7.css.map",
+    "main.4286288b.js.map": "/ISO_Web/static/js/main.4286288b.js.map",
+    "787.6ed83e1f.chunk.js.map": "/ISO_Web/static/js/787.6ed83e1f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efb8f3a7.css",
+    "static/js/main.4286288b.js"
+  ]
+}
